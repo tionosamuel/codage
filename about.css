@@ -1,0 +1,603 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:ital,wght@1,500&display=swap');
+
+.tete {
+    display: flex;
+    justify-content: center;
+    color: #000;
+}
+
+nav ul li {
+    display: flex;
+    list-style-type: none;
+    display: inline-block;
+    padding: 40px 20px;
+}
+.image {
+    width: 100%;
+    height: 300px;
+}
+
+.images {
+    width: 100%;
+    height: 600px;
+    
+}
+.car{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background: white;
+    border-radius: 15px;
+    top: -590px;
+    left: 200px;
+    font-size: 110px;
+    color: #b0ddca;;
+    }
+
+.msg1 {
+    position: relative;
+    z-index: 15px;
+    font-size: 20px;
+    left: 200px;
+    top: -580px;
+    color: white;
+
+}
+
+.msg2 {
+    position: relative;
+    z-index: 15px;
+    font-size: 20px;
+    left: 200px;
+    top: -550px;
+    color: white;
+}
+
+.msg3 {
+    position: relative;
+    z-index: 15px;
+    left: 180px;
+    top: -150px;
+    color: black;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.msg4 {
+    position: relative;
+    z-index: 15px;
+    font-size: 20px;
+    left: 180px;
+    top: -150px;
+    color: rgb(55, 56, 56);
+    font-size: 15px;
+    font-family: 'Alfa Slab One', cursive;
+font-family: 'Alkatra', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Lora', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.msg5 {
+    position: relative;
+    z-index: 15px;
+    font-size: 20px;
+    left: 180px;
+    top: -150px;
+    color: rgb(153, 146, 146);
+    font-size: 15px;
+}
+
+.et {
+    position: relative;
+    background-color: rgb(118, 201, 226);
+    padding: 15px;
+    border-radius: 20px;
+    top: -150px;
+    color: white;
+    left: 175px
+}
+
+.conteneur {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(118, 201, 226);
+    overflow: 0%;
+
+}
+
+.msg6 {
+    position: relative;
+    z-index: 15px;
+    font-size: 60px;
+    left: 170px;
+    top: -0px;
+    color: white
+}
+
+.msg7 {
+    position: relative;
+    z-index: 15px;
+    font-size: 20px;
+    left: 170px;
+    top: -20px;
+    color: white;
+}
+
+.forme {
+    position: relative;
+    width: 250px;
+    height: 350px;
+    background: white;
+    border-radius: 50px;
+    top: -20px;
+    left: 60px;
+}
+
+.forme1 {
+    position: relative;
+    width: 250px;
+    height: 350px;
+    background: white;
+    border-radius: 50px;
+    top: -375px;
+    left: 350px;
+}
+
+.forme2 {
+    position: relative;
+    width: 250px;
+    height: 350px;
+    background: white;
+    border-radius: 50px;
+    top: -720px;
+    left: 630px;
+}
+
+.forme3 {
+    position: relative;
+    width: 250px;
+    height: 350px;
+    background: white;
+    border-radius: 50px;
+    top: -1070px;
+    left: 900px;
+}
+
+.rond {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: rgb(80, 187, 206);
+    border-radius: 150px;
+    top: -1400px;
+    left: 65px;
+}
+
+.rond1 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: rgb(80, 187, 206);
+    border-radius: 150px;
+    top: -1500px;
+    left: 365px;
+}
+
+.rond2 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: rgb(80, 187, 206);
+    border-radius: 150px;
+    top: -1600px;
+    left: 640px;
+}
+
+.rond3 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: rgb(80, 187, 206);
+    border-radius: 150px;
+    top: -1700px;
+    left: 915px;
+}
+
+.icon {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 150px;
+    top: -1800px;
+    left: 85px;
+}
+
+.icon1 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 150px;
+    top: -1790px;
+    left: 320px;
+}
+
+.icon2 {
+    position: relative;
+    width: 60px;
+    height: 65px;
+    border-radius: 150px;
+    top: -1790px;
+    left: 535px;
+}
+
+.icon3 {
+    position: relative;
+    width: 60px;
+    height: 65px;
+    border-radius: 150px;
+    top: -1790px;
+    left: 735px;
+}
+
+.msg8 {
+    position: relative;
+    z-index: 15px;
+    font-size: 20px;
+    left: 170px;
+    top: -220px;
+    color: rgb(162, 234, 236);
+}
+
+.title {
+    position: relative;
+    z-index: 15px;
+    font-size: 20px;
+    left: 100px;
+    top: -1800px;
+    color: rgb(135, 230, 233);
+
+}
+
+.title1 {
+    position: relative;
+    z-index: 15px;
+    font-size: 25px;
+    left: 370px;
+    top: -1870px;
+    color: rgb(121, 233, 236);
+
+}
+
+.title2 {
+    position: relative;
+    z-index: 15px;
+    font-size: 20px;
+    left: 500px;
+    top: -1870px;
+    color: rgb(24, 216, 223);
+    font-size: 20px;
+}
+
+.title3 {
+    position: relative;
+    z-index: 15px;
+    font-size: 20px;
+    left: 660px;
+    top: -1870px;
+    color: rgb(24, 216, 223);
+    font-size: 20px;
+}
+
+.par {
+    position: relative;
+    z-index: 15px;
+    font-size: 20px;
+    left: 70px;
+    top: -1870px;
+    color: rgb(55, 56, 56);
+
+}
+
+.par1 {
+    position: relative;
+    z-index: 15px;
+    font-size: 20px;
+    left: 360px;
+    top: -1980px;
+    color: rgb(55, 56, 56);
+
+}
+
+.par2 {
+    position: relative;
+    z-index: 15px;
+    font-size: 20px;
+    left: 650px;
+    top: -2090px;
+    color: rgb(55, 56, 56);
+
+}
+
+.par3 {
+    position: relative;
+    z-index: 15px;
+    font-size: 20px;
+    left: 920px;
+    top: -2210px;
+    color: rgb(55, 56, 56);
+
+}
+
+.forme4 {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background: #f2f2f2;
+    border-radius: 20px;
+    top: -1865px;
+    left: 250px;
+
+}
+
+.msg8 {
+    position: relative;
+    z-index: 15px;
+    font-size: 20px;
+    left: 280px;
+    top: -2030px;
+    color: rgb(55, 56, 56);
+
+}
+
+.msg9 {
+    position: relative;
+    z-index: 15px;
+    font-size: 25px;
+    left: 810px;
+    top: -2150px;
+    color: black;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.msg10 {
+    position: relative;
+    z-index: 15px;
+    font-size: 20px;
+    left: 810px;
+    top: -2120px;
+    color: rgb(55, 56, 56);
+
+}
+
+.msg11 {
+    position: relative;
+    z-index: 15px;
+    font-size: 20px;
+    left: 810px;
+    top: -2100px;
+    color: rgb(55, 56, 56);
+}
+
+.bimages {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    top: -2460px;
+    left: 360px;
+}
+
+.msg12 {
+    position: relative;
+    z-index: 15px;
+    font-size: 70px;
+    left: 250px;
+    top: -2316px;
+    color: rgb(29, 24, 24)
+}
+
+.msg13 {
+    position: relative;
+    z-index: 15px;
+    font-size: 20px;
+    left: 250px;
+    top: -2316px;
+    color: rgb(29, 24, 24)
+}
+
+.cimage {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: -2660px;
+    left: 890px;
+}
+
+.et1 {
+    position: relative;
+    background-color: rgb(118, 201, 226);
+    padding: 15px;
+    border-radius: 20px;
+    top: -2650px;
+    color: white;
+    left: -145px
+}
+
+.f {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -2670px;
+    left: 370px;
+}
+
+.tw {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -2670px;
+    left: 370px;
+}
+
+.in {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -2670px;
+    left: 370px;
+}
+
+.msg14 {
+    position: relative;
+    z-index: 15px;
+    font-size: 50px;
+    left: -320px;
+    top: -2516px;
+    color: rgb(0, 0, 1);
+    font-family: 'Alkatra', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.dimage {
+    width: 130px;
+    height: 130px;
+    position: relative;
+    top: -2260px;
+    left: -700px;
+}
+
+.eimages {
+    width: 130px;
+    height: 130px;
+    position: relative;
+    top: -2260px;
+    left: -510px;
+}
+
+.fImage {
+    width: 130px;
+    height: 130px;
+    position: relative;
+    top: -2400px;
+    left: 960px;
+}
+
+.ti {
+    position: relative;
+    z-index: 15px;
+    font-size: 20px;
+    left: 240px;
+    top: -2400px;
+    color: rgb(135, 230, 233);
+}
+
+.ti1 {
+    position: relative;
+    z-index: 15px;
+    font-size: 20px;
+    left: 240px;
+    top: -2400px;
+    color: rgb(0, 0, 0);
+}
+
+.ti2 {
+    position: relative;
+    z-index: 15px;
+    font-size: 20px;
+    left: 240px;
+    top: -2400px;
+    color: rgb(34, 33, 33);
+}
+
+.ti3 {
+    position: relative;
+    z-index: 15px;
+    font-size: 20px;
+    left: 580px;
+    top: -2570px;
+    color: rgb(135, 230, 233);
+}
+
+.ti4 {
+    position: relative;
+    z-index: 15px;
+    font-size: 20px;
+    left: 580px;
+    top: -2580px;
+    color: rgb(25, 25, 26);
+}
+
+.ti5 {
+    position: relative;
+    z-index: 15px;
+    font-size: 20px;
+    left: 580px;
+    top: -2580px;
+    color: rgb(25, 25, 26);
+}
+
+.ti6 {
+    position: relative;
+    z-index: 15px;
+    font-size: 20px;
+    left: 950px;
+    top: -2740px;
+    color: rgb(59, 228, 228);
+}
+
+.ti7 {
+    position: relative;
+    z-index: 15px;
+    font-size: 20px;
+    left: 950px;
+    top: -2740px;
+    color: black;
+}
+
+.ti8 {
+    position: relative;
+    z-index: 15px;
+    font-size: 20px;
+    left: 950px;
+    top: -2740px;
+    color: black;
+}
+
+.tl {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    position: relative;
+    top: -2760px;
+    left: 570px;
+}
+
+.tl1 {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    position: relative;
+    top: -2789px;
+    left: 230px;
+}
+
+.tl2 {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    position: relative;
+    top: -2810px;
+    left: 950px;
+}
+
